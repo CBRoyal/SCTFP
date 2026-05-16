@@ -128,9 +128,15 @@
     font-size: 30px;
     color: var(--fire-font-color);
 }
-.fruit_picking_navigation_links{
+#fruit_picking_navigation_link{
     font-family: "Knewave", sans-serif;
     font-size: 30px;
+    color: var(--fruit-font-color);
+}
+#fruit_picking_navigation_link:hover{
+    color: var(--main-bg-color);
+}
+#fruit_picking_navigation_link:visited{
     color: var(--fruit-font-color);
 }
 .fishing_navigation_links{
