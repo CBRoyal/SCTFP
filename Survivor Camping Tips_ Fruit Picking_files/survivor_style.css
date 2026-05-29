@@ -26,6 +26,9 @@
     color: var(--fruit-header-color);
     text-shadow: 2px 2px var(--text-shadow-color);
 }
+#papaya_tree_picking_image{
+    margin-left: 100px;
+}
 #fruit_picking_description, #coconut_picking_guidelines, #other_fruit_picking_guidelines{
     font-family: "Knewave", sans-serif;
     font-size: 30px;
