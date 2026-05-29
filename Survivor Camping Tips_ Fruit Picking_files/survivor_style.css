@@ -79,6 +79,7 @@
     }
     .survivor_footer{
         width: 90%;
+        margin-left: 5px;
     }
 }
 @media (max-width: 500px){
