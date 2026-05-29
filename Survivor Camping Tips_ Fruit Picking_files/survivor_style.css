@@ -67,7 +67,8 @@
 }
 @media (max-width: 800px){
     #fruit_picking_title{
-        font-size: 20px;
+        font-size: 45px;
+        width: 95%;
     }
     #papaya_tree_picking_image{
         margin-left: 50px;
@@ -84,8 +85,8 @@
 }
 @media (max-width: 500px){
     #fruit_picking_title{
-        font-size: 45px;
         margin-left: 50px;
+        width: 100%;
     }
     #papaya_tree_picking_image{
         margin-left: 0px;
