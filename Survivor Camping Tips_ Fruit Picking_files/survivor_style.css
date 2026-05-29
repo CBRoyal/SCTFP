@@ -16,6 +16,7 @@
     font-size: 60px;
     color: var(--fruit-header-color);
     text-shadow: 2px 2px var(--text-shadow-color);
+    margin-left: 10px;
 }
 #papaya_tree_picking_image{
     margin-left: 100px;
