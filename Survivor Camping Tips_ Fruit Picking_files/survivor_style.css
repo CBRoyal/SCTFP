@@ -1,24 +1,15 @@
 :root{
     --text-shadow-color: #000000;
-    --main-header-color: #a52a2a;
-    --main-title-bg-color: #800000;
-    --shelter-header-color: #32cd32;
-    --fire-header-color: #ff8c00;
+    --home-link-color: #ff8c00;
     --fruit-header-color: #daa520;
-    --fish-header-color: #ffb6c1;
-    --main-font-color: #ff4500;
-    --shelter-font-color:#008000;
-    --shelter-text-bg-color: #ffebcd;
-    --fire-font-color: #ffff00;
+    --footer-text-shadow-color: #ff4500;
+    --fruit-bg-color:#008000;
+    --fruit-description-bg-color: #ffff00;
     --fruit-font-color: #8b4513;
-    --fish-font-color: var(--shelter-header-color);
-    --fish-text-bg-color: #00ced1;
-    --main-bg-color: #006400;
-    --fire-bg-color: #b22222;
-    --fish-bg-color: #4169e1;
+    --fruit-link-hover-color: #006400;
 }
 #fruit_picking_webpage{
-    background-color: var(--shelter-font-color);
+    background-color: var(--fruit-bg-color);
 }
 #fruit_picking_title{
     font-family: "Knewave", fantasy;
@@ -33,8 +24,8 @@
     font-family: "Knewave", sans-serif;
     font-size: 30px;
     color: var(--fruit-font-color);
-    background-color: var(--fire-font-color);
-    border: 40px solid var(--shelter-font-color);
+    background-color: var(--fruit-description-bg-color);
+    border: 40px solid var(--fruit-bg-color);
 }
 #fruit_picking_navigation_link{
     font-family: "Knewave", sans-serif;
@@ -42,7 +33,7 @@
     color: var(--fruit-font-color);
 }
 #fruit_picking_navigation_link:hover{
-    color: var(--main-bg-color);
+    color: var(--fruit-link-hover-color);
 }
 #fruit_picking_navigation_link:visited{
     color: var(--fruit-font-color);
@@ -52,22 +43,22 @@
     left: 100px;
     top: 150;
     font-family: "Knewave", monospace;
-    color: var(--fire-header-color);
+    color: var(--home-link-color);
     font-size: 30pt;
 }
 #home:hover{
-    color: var(--fire-font-color);
+    color: var(--fruit-description-bg-color);
 }
 .survivor_footer{
     background-image: url("bamboo_background.jpeg");
-    color: var(--fire-font-color);
-    text-shadow: 1px 1px var(--main-font-color);
+    color: var(--fruit-description-bg-color);
+    text-shadow: 1px 1px var(--footer-text-shadow-color);
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
 }
 .copyright_link, .storage_link{
-    color: var(--fire-font-color);
+    color: var(--fruit-description-bg-color);
 }
 .copyright_link:hover, .storage_link:hover{
-    color: var(--fire-header-color);
+    color: var(--home-link-color);
 }
