@@ -65,3 +65,8 @@
 .copyright_link:hover, .storage_link:hover{
     color: var(--home-link-color);
 }
+@media (max-width: 800px){
+    #fruit_picking_title{
+        font-size: 45px;
+    }
+}
