@@ -70,10 +70,29 @@
         font-size: 30px;
     }
     #papaya_tree_picking_image{
-        width: 600;
-        height: 600;
+        width: 600px;
+        height: 600px;
+    }
+    #fruit_picking_description, #coconut_picking_guidelines, #other_fruit_picking_guidelines{
+        margin-right: 25px;
     }
     .survivor_footer{
         width: 95%;
+    }
+}
+@media (max-width: 500px){
+    #fruit_picking_title{
+        font-size: 45px;
+    }
+    #papaya_tree_picking_image{
+        width: 400px;
+        height: 400px;
+    }
+    #fruit_picking_description, #coconut_picking_guidelines, #other_fruit_picking_guidelines{
+        margin-left: 80px;
+        margin-right: 0px;
+    }
+    .survivor_footer{
+        width: 100%;
     }
 }
