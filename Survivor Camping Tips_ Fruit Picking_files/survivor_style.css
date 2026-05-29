@@ -26,6 +26,7 @@
     color: var(--fruit-font-color);
     background-color: var(--fruit-description-bg-color);
     border: 40px solid var(--fruit-bg-color);
+    padding: 10px;
 }
 #fruit_picking_navigation_link{
     font-family: "Knewave", sans-serif;
