@@ -6,7 +6,7 @@
     --fruit-bg-color:#008000;
     --fruit-description-bg-color: #ffff00;
     --fruit-font-color: #8b4513;
-    --fruit-link-hover-color: #006400;
+    --fruit-link-hover-color: #228b22;
 }
 #fruit_picking_webpage{
     background-color: var(--fruit-bg-color);
