@@ -94,7 +94,6 @@
         height: 300px;
     }
     #fruit_picking_description, #coconut_picking_guidelines, #other_fruit_picking_guidelines{
-        margin-left: 10px;
         margin-right: 0px;
     }
     .survivor_fruit_picking_images{
